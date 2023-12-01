@@ -1,0 +1,169 @@
+/*  █████╗ ████████╗
+#  ██╔══██╗╚══██╔══╝
+#  ███████║   ██║   
+#  ██╔══██║   ██║   
+#  ██║  ██║   ██║   
+#  ╚═╝  ╚═╝   ╚═╝   
+# Waybar style 2023 */
+
+@import "./theme/rose-pine-moon.css";
+
+/*────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+** General **
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────*/
+
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+window#waybar {
+  background-color: transparent;
+  transition-duration: 0.5s;
+  margin: 0px 0px;
+}
+
+/*────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+** Workspaces **
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────*/
+
+#workspaces {
+  background: @surface;
+  margin: 5px 2px 5px 8px;
+  padding: 0px 2px;
+  border: 0px;
+  border-radius: 15px;
+  font-style: normal;
+  color: @text;
+}
+
+#workspaces button {
+  padding: 0px 5px;
+  margin: 4px 3px;
+  border-radius: 15px;
+  border: 0px;
+  color: @text;
+  background: @text;
+  transition: all 0.3s ease-in-out;
+  opacity: 0.4;
+}
+
+#workspaces button.active {
+  background: @rose;
+  color: @rose;
+  border-radius: 15px;
+  min-width: 50px;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+}
+
+/*────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+** Tooltips **
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────*/
+
+tooltip {
+  background: @base;
+  border: 1px solid @foam;
+  border-radius: 10px;
+}
+
+/*────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+** Window **
+────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────*/
+
+#window {
+  color: @base;
+  background: @iris;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#custom-updater {
+  color: @base;
+  background: @iris;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#clock {
+  color: @base;
+  background: @foam;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#network {
+  color: @base;
+  background: @gold;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#bluetooth {
+  color: @base;
+  background: @red;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#cpu {
+  color: @base;
+  background: @magenta;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#temperature {
+  color: @base;
+  background: @extragold;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#memory {
+  color: @base;
+  background: @love;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#battery {
+  color: @base;
+  background: @gold;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#backlight {
+  color: @base;
+  background: @foam;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#pulseaudio {
+  color: @base;
+  background: @lime;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}
+
+#tray {
+  color: @base;
+  background: @tray;
+  border-radius: 15px;
+  margin: 5px;
+  padding: 2px 10px;
+}

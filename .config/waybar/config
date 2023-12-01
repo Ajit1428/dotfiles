@@ -1,0 +1,38 @@
+{
+
+"include": "~/.config/waybar/modules",
+"output": ["eDP-1","HDMI-A-1"],
+"layer": "top",
+"exclusive": true,
+"passthrough": false,
+"position": "top",
+"spacing": 4,
+"fixed-center": true,
+"ipc": true,
+"margin-left": 10,
+"margin-right": 10,
+"margin-top": 6,
+
+"modules-left": [
+  "custom/updater", 
+  "clock",
+  "network",    
+	"hyprland/workspaces",
+	],
+  
+"modules-center": [
+  "hyprland/window"
+	], 
+
+"modules-right": [
+	"bluetooth",
+	"cpu",
+	"temperature", 
+	"memory", 
+	"battery",  
+	"backlight",
+	"pulseaudio",
+	"pulseaudio#microphone",
+  "tray",
+	],
+}
