@@ -203,18 +203,8 @@
     "when": "openFolderWorkspaceSupport"
   },
   {
-    "key": "z a",
-    "command": "editor.fold",
-    "when": "editorTextFocus && foldingEnabled"
-  },
-  {
     "key": "ctrl+shift+[",
     "command": "-editor.fold",
-    "when": "editorTextFocus && foldingEnabled"
-  },
-  {
-    "key": "z o",
-    "command": "editor.unfold",
     "when": "editorTextFocus && foldingEnabled"
   },
   {
