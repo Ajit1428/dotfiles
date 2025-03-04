@@ -37,6 +37,9 @@ keymap.set("n", "<C-w><down>", "<C-w>-")
 --Telescope todo navigator
 keymap.set("n", ";t", "<cmd>TodoTelescope<cr>", { desc = "Find todos" })
 
+-- Gitblame Keymap
+keymap.set("n", "<leader>gt", ":GitBlameToggle<CR>", { silent = true })
+
 --Diagnostics
 keymap.set("n", "<leader>r", function()
   vim.diagnostic.goto_next()
