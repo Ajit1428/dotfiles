@@ -22,7 +22,7 @@ return {
       "hadolint",
       "html-lsp",
       "htmlhint",
-      "js-debug",
+      "js-debug-adapter",
       "json-lsp",
       "ltex-ls",
       "markdown-toc",
