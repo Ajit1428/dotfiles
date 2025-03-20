@@ -49,12 +49,12 @@
     "command": "workbench.action.toggleSidebarVisibility"
   },
   {
-    "key": "shift-H",
+    "key": "shift-L",
     "command": "workbench.action.nextEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
   {
-    "key": "shift-L",
+    "key": "shift-H",
     "command": "workbench.action.previousEditorInGroup",
     "when": "(vim.mode == 'Normal' || vim.mode == 'Visual') && (editorTextFocus || !inputFocus)"
   },
