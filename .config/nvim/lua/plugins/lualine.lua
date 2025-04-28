@@ -3,7 +3,7 @@ return {
   event = "VeryLazy",
   opts = {
     options = {
-      theme = "catppuccin-mocha",
+      theme = "catppuccin-macchiato",
       icons_enabled = true,
     },
     sections = {
