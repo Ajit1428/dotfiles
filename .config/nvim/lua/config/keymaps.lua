@@ -6,15 +6,11 @@ keymap.set("n", "dw", 'vb"_d')
 keymap.set("n", "x", '"_x')
 
 --Move lines in visual mode
-keymap.set("v", "J", ":m '>+3<CR>gv=gv")
-keymap.set("v", "K", ":m '<0<cr>gv=gv")
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<cr>gv=gv")
 
 --Select all
 keymap.set("n", "<C-a>", "gg<S-v>G")
-
---Increase Number
-keymap.set("n", "<A-i>", "<C-a>", opts)
-keymap.set("n", "<A-S-i>", "<C-x>", opts)
 
 --Split Window
 keymap.set("n", "ss", ":split<Return>", opts)
