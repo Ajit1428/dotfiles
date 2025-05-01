@@ -167,8 +167,7 @@ tooltip {
 }
 
 #tray {
-  color: @base;
-  background: @surface2;
+  border: 2px solid @green;
   border-radius: 15px 50px 15px 50px;
   margin: 5px;
   padding: 2px 20px;
