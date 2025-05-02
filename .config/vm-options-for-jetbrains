@@ -1,0 +1,9 @@
+-Xms512m
+-Xmx4096m
+-XX:ReservedCodeCacheSize=512m
+-Dsun.java2d.opengl=false
+-Dsun.java2d.d3d=false
+-Dide.managed.by.toolbox=/home/hyprat/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+-Dtoolbox.notification.token=43137c65-c7f3-41cb-822b-5a95c5dc7aa6
+-Dtoolbox.notification.portFile=/home/hyprat/.cache/JetBrains/Toolbox/ports/b4c518d7-8015-4e12-b608-cb819538bbc1.port
+-Dawt.toolkit.name=WLToolkit
