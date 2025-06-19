@@ -14,3 +14,5 @@ end
 
 starship init fish | source
 fish_add_path /home/at/.spicetify
+set -gx PATH /opt/homebrew/bin $PATH
+set -U fish_user_paths /opt/homebrew/bin $fish_user_paths
