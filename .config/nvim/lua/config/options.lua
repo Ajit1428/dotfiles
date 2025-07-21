@@ -26,6 +26,8 @@ vim.opt.smarttab = true --Tab
 vim.opt.tabstop = 2 --Tab
 vim.opt.completeopt = { "menu", "menuone", "noselect" } --Completion
 vim.opt.signcolumn = "yes" --Space present in the left side of relative line numbers
+vim.opt.lazyredraw = true
+vim.o.ttyfast = true
 
 --Fold (UFO)
 vim.opt.foldcolumn = "0"
