@@ -5,10 +5,10 @@ return {
   lazy = false,
   config = function()
     require("catppuccin").setup({
-      flavour = "mocha",
+      flavour = "macchiato",
       term_colors = true,
       highlight_overrides = {
-        mocha = function(colors)
+        macchiato = function(colors)
           return {
             Comment = {
               fg = "#00ff7f",
